@@ -2,6 +2,8 @@
 
 Raw, unmodified Landsat Collection 2 band files from USGS EarthExplorer for the Oct. 17, 2026 fire at CFB Wainwright, Alberta, kept so anyone can check the analysis in the [CFB Wainwright fire archive](https://github.com/primerogueinc/cfb-wainwright-fire-archive).
 
+**Opening the files:** each `.TIF` is one raw band and looks grey on its own. See [HOW-TO-VIEW.md](HOW-TO-VIEW.md) for a ten-minute guide to seeing the fire in colour (free QGIS).
+
 ## Scenes
 
 | Date (UTC) | Product ID | Time | Files | Note |
