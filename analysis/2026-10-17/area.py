@@ -19,3 +19,12 @@ for thr in (0.06,0.08,0.10,0.12):
     print(thr,res[thr])
     if thr==0.08: np.save("area1217.npy",keep)
 json.dump(res,open("area1217.json","w"),indent=1)
+# burned_1217_classes.tif: 1 = burned at NBR<0.12, 2 = <0.08, 3 = <0.06, 4 = active fire pixel (each class includes the higher ones)
+import rasterio
+out=np.zeros(nbr.shape,"uint8")
+for thr,val in ((0.12,1),(0.08,2),(0.06,3)):
+    m=ndimage.binary_opening(nbr<thr,iterations=1)|fire
+    lab,n=ndimage.label(m,structure=np.ones((3,3)))
+    out[ndimage.binary_fill_holes(np.isin(lab,np.unique(lab[fire])))]=val
+out[fire]=4
+with rasterio.open("burned_1217_classes.tif","w",driver="GTiff",height=out.shape[0],width=out.shape[1],count=1,dtype="uint8",crs="EPSG:32612",transform=T,compress="deflate",nodata=0) as o: o.write(out,1)
