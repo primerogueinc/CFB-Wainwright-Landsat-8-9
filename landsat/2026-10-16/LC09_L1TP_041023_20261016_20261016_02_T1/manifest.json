@@ -1,0 +1,59 @@
+{
+ "product_id": "LC09_L1TP_041023_20261016_20261016_02_T1",
+ "source": "USGS EarthExplorer, Landsat Collection 2",
+ "licence": "Landsat data courtesy of the U.S. Geological Survey (public domain)",
+ "files": {
+  "LC09_L1TP_041023_20261016_20261016_02_T1_B4.TIF": {
+   "bytes": 85315523,
+   "sha256": "d24a2a636f20bfe3633bbeb5ceb58c2eb0a492dd57110d4b73c420440ea263e3",
+   "received_as": "LC09_L1TP_041023_20261016_20261016_02_T1_B4.TIF"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_B5.TIF": {
+   "bytes": 86382258,
+   "sha256": "6a9cf0080c77ef3e8422c9fb6350867841f48b28fbf14ab008fd3ec4269e22f6",
+   "received_as": "LC09_L1TP_041023_20261016_20261016_02_T1_B5.TIF"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_B6.TIF": {
+   "bytes": 82546475,
+   "sha256": "6d563a302809d06063e992932286cf4b4c6a640aebfbffc10a65dc52d06b03f5",
+   "received_as": "LC09_L1TP_041023_20261016_20261016_02_T1_B6.TIF"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_B7.TIF": {
+   "bytes": 82136807,
+   "sha256": "931c0cb59c3b7cdf716181f05615ce3e683f2be93b64453a5237c0f0165b681f",
+   "received_as": "LC09_L1TP_041023_20261016_20261016_02_T1_B7_2.TIF"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_B9.TIF": {
+   "bytes": 82300496,
+   "sha256": "2f620f865b299b870bf9e666ca0c6e73c466ddd59c0cc89997317035f477a20f",
+   "received_as": "LC09_L1TP_041023_20261016_20261016_02_T1_B9_2.TIF"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_B10.TIF": {
+   "bytes": 80491512,
+   "sha256": "d251e8c137bfaf9a7092d7bd9954dfe4020b8151e3992b9979c6a483c0582523",
+   "received_as": "LC09_L1TP_041023_20261016_20261016_02_T1_B10_1.TIF"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_MTL.txt": {
+   "bytes": 12175,
+   "sha256": "cda1b33959a2a9cf94f2f42f712de31892438f10f84b0dda8a1a19abb4f4e90c",
+   "received_as": "e3fd839d-LC09_L1TP_041023_20261016_20261016_02_T1_MTL.txt"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_MTL.xml": {
+   "bytes": 17741,
+   "sha256": "d1772cc8828ccf3fb3ad3f5116925539755d2fb7dbb4dc394110eed5e33cda4c",
+   "received_as": "9013ebd6-LC09_L1TP_041023_20261016_20261016_02_T1_MTL.xml"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_ANG.txt": {
+   "bytes": 117249,
+   "sha256": "dc02108583eec634d3a1f30fe3e9818d849cac4adc81441e38a617d2ba7f3c69",
+   "received_as": "f84cca01-LC09_L1TP_041023_20261016_20261016_02_T1_ANG.txt"
+  },
+  "LC09_L1TP_041023_20261016_20261016_02_T1_B8.TIF": {
+   "bytes": 327562043,
+   "sha256": "17e646dac8fbf3bbff736fc0841ad34c06697ddabba82a0dadd90d2273ab6c4b",
+   "received_as": "LC09_L1TP_041023_20261016_20261016_02_T1_B8.TIF",
+   "stored": false,
+   "note": "Not stored: 328 MB exceeds GitHub's 100 MB file limit. Download from USGS EarthExplorer (product ID above); the hash verifies it."
+  }
+ }
+}
