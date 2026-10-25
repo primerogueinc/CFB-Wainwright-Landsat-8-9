@@ -1,0 +1,27 @@
+{
+ "product_id": "LC08_L1TP_041023_20261024_20261024_02_RT",
+ "source": "USGS EarthExplorer, Landsat Collection 2",
+ "licence": "Landsat data courtesy of the U.S. Geological Survey (public domain)",
+ "files": {
+  "LC08_L1TP_041023_20261024_20261024_02_RT_B4.TIF": {
+   "bytes": 96918740,
+   "sha256": "7117966f873e004628b15ee6b5cdcf0a80de7e954366927985d9d9b247efa998",
+   "received_as": "LC08_L1TP_041023_20261024_20261024_02_RT_B4.TIF"
+  },
+  "LC08_L1TP_041023_20261024_20261024_02_RT_B5.TIF": {
+   "bytes": 99572576,
+   "sha256": "4119d6f2ba5c83027c60183915d0e8f341936639c51298767bdfb011ccfa3318",
+   "received_as": "LC08_L1TP_041023_20261024_20261024_02_RT_B5.TIF"
+  },
+  "LC08_L1TP_041023_20261024_20261024_02_RT_B6.TIF": {
+   "bytes": 96729288,
+   "sha256": "8eba17c4b8893a276bc512b9acd994fb97c020228f69bb608b483070c88448d0",
+   "received_as": "LC08_L1TP_041023_20261024_20261024_02_RT_B6.TIF"
+  },
+  "LC08_L1TP_041023_20261024_20261024_02_RT_B7.TIF": {
+   "bytes": 93942140,
+   "sha256": "491335cdb0d52b917063df1c5985bf7ed3b879b3524f3e0ec62e93fb4f9edf0a",
+   "received_as": "LC08_L1TP_041023_20261024_20261024_02_RT_B7.TIF"
+  }
+ }
+}
