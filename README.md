@@ -10,6 +10,8 @@ Raw, unmodified Landsat Collection 2 band files from USGS EarthExplorer for the 
 |---|---|---|---|---|
 | 2026-10-17 | LC08_L1TP_040023_20261017_20261021_02_T1 | 18:17 UTC (12:17 p.m. MDT) | B4, B5, B6, B7, B10, MTL (txt, xml), ANG | **The only close-up of the fire while it burned.** Scene cloud cover 83%: thin, cold cloud over the base, but flames show through in the shortwave infrared. |
 
+| 2026-10-24 | LC08_L1TP_041023_20261024_20261024_02_RT | 18:23 UTC (12:23 p.m. MDT) | B4, B5, B6, B7, B10, MTL (txt, xml), ANG | **A week after.** Clear over the fire area (scene cloud cover 26%, away from the base). Burn scar sharp: median NBR −0.27 inside the mapped scar vs +0.11 within 1 km outside. No active fire pixels; the scar is 0.3 °C warmer than its surroundings at the surface (1.7 vs 1.4 °C; hottest pixel 5.5 °C), as dark burned ground is, with no residual hot spots. Real-Time (RT) tier: USGS will reprocess it to Tier 1 in a few weeks; the bands should not change materially. |
+
 | 2026-10-16 | LC09_L1TP_041023_20261016_20261016_02_T1 | 18:23 UTC (12:23 p.m. MDT) | B4, B5, B6, B7, B9, B10, MTL (txt, xml), ANG; B8 hashed, not stored (328 MB, over GitHub's 100 MB limit) | **Day before.** Cloud cover 99.99%, thick (cirrus band B9 high; lakes barely visible). No fire signal at the base (max B7/B5 0.83 inside the area that burned by 12:17 Oct. 17; fire pixels need > 2.5), but cloud this thick could hide a small fire. Not usable as a before-image of the ground. |
 
 Folder: `landsat/<date UTC>/<product ID>/`, files named as in the product's MTL file. `manifest.json` gives the SHA-256 of each file and the name it arrived under.
